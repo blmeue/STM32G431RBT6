@@ -878,7 +878,7 @@ Removing Unused input sections from the image.
     Removing seg.o(.rev16_text), (4 bytes).
     Removing seg.o(.revsh_text), (4 bytes).
     Removing seg.o(.rrx_text), (6 bytes).
-    Removing seg.o(i.seg_disp), (100 bytes).
+    Removing seg.o(i.seg_disp), (112 bytes).
     Removing seg.o(.data), (43 bytes).
     Removing led.o(.rev16_text), (4 bytes).
     Removing led.o(.revsh_text), (4 bytes).
@@ -887,7 +887,7 @@ Removing Unused input sections from the image.
     Removing myadc.o(.revsh_text), (4 bytes).
     Removing myadc.o(.rrx_text), (6 bytes).
 
-347 unused section(s) (total 20055 bytes) removed from the image.
+347 unused section(s) (total 20067 bytes) removed from the image.
 
 ==============================================================================
 

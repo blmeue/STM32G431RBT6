@@ -29,7 +29,7 @@ void seg_disp(void)
         for(i=0;i<8;i++)
         {
             //注意：先发送最高位，即第三个数码管的最高位数据    
-            if(seg_buf[j]&0x80)
+            if(seg_buf[j-1]&0x80)
             {
                 SER_H;
             }
@@ -41,7 +41,7 @@ void seg_disp(void)
              SCK_L;
              SCK_H;
              
-             seg_buf[j]<<=1;
+             seg_buf[j-1]<<=1;
         }
     }
      //RCLK上升沿，移位寄存器的数据送入存储寄存器
