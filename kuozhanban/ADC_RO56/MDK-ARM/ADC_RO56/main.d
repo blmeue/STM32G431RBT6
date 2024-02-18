@@ -33,9 +33,9 @@ adc_ro56\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
 adc_ro56\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
 adc_ro56\main.o: ../Core/Inc/adc.h
 adc_ro56\main.o: ../Core/Inc/gpio.h
-adc_ro56\main.o: ..\Bsp\lcd.h
-adc_ro56\main.o: ..\Bsp\seg.h
-adc_ro56\main.o: ..\Bsp\led.h
-adc_ro56\main.o: ..\Bsp\myadc.h
+adc_ro56\main.o: ../Bsp/lcd.h
+adc_ro56\main.o: ../Bsp/seg.h
+adc_ro56\main.o: ../Bsp/led.h
+adc_ro56\main.o: ../Bsp/myadc.h
 adc_ro56\main.o: D:\keil_mdk\ARM\ARMCC\Bin\..\include\stdio.h
 adc_ro56\main.o: D:\keil_mdk\ARM\ARMCC\Bin\..\include\String.h
