@@ -35,10 +35,10 @@
 13th_1_second\main.o: ../Core/Inc/tim.h
 13th_1_second\main.o: ../Core/Inc/usart.h
 13th_1_second\main.o: ../Core/Inc/gpio.h
-13th_1_second\main.o: ..\Bsp\lcd.h
-13th_1_second\main.o: ..\Bsp\led.h
-13th_1_second\main.o: ..\Bsp\timer.h
+13th_1_second\main.o: ../Bsp/lcd.h
+13th_1_second\main.o: ../Bsp/led.h
+13th_1_second\main.o: ../Bsp/timer.h
 13th_1_second\main.o: D:\keil_mdk\ARM\ARMCC\Bin\..\include\stdbool.h
-13th_1_second\main.o: ..\Bsp\myusart.h
+13th_1_second\main.o: ../Bsp/myusart.h
 13th_1_second\main.o: D:\keil_mdk\ARM\ARMCC\Bin\..\include\stdio.h
 13th_1_second\main.o: D:\keil_mdk\ARM\ARMCC\Bin\..\include\string.h
